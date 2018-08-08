@@ -47,7 +47,7 @@
       return p.d(e, "a", e), e
   }, p.o = function(r, e) {
       return Object.prototype.hasOwnProperty.call(r, e)
-  }, p.p = "assets/pixie/";
+  }, p.p = "/assets/pixie/";
   var a = window.webpackJsonp = window.webpackJsonp || [],
       c = (a.push) ? a.push.bind(a) : '';
   a.push = e, a = (a.slice) ? a.slice() : [];
@@ -27665,14 +27665,14 @@
                       openImageDialog: {
                           show: !0,
                           sampleImages: [{
-                              url: "assets/pixie/images/samples/sample1.jpg",
-                              thumbnail: "assets/pixie/images/samples/sample1_thumbnail.jpg"
+                              url: "/assets/pixie/images/samples/sample1.jpg",
+                              thumbnail: "/assets/pixie/images/samples/sample1_thumbnail.jpg"
                           }, {
-                              url: "assets/pixie/images/samples/sample2.jpg",
-                              thumbnail: "assets/pixie/images/samples/sample2_thumbnail.jpg"
+                              url: "/assets/pixie/images/samples/sample2.jpg",
+                              thumbnail: "/assets/pixie/images/samples/sample2_thumbnail.jpg"
                           }, {
-                              url: "assets/pixie/images/samples/sample3.jpg",
-                              thumbnail: "assets/pixie/images/samples/sample3_thumbnail.jpg"
+                              url: "/assets/pixie/images/samples/sample3.jpg",
+                              thumbnail: "/assets/pixie/images/samples/sample3_thumbnail.jpg"
                           }]
                       },
                       colorPresets: ["#000", "#fff", "rgb(242, 38, 19)", "rgb(249, 105, 14)", "rgb(253, 227, 167)", "rgb(4, 147, 114)", "rgb(30, 139, 195)", "rgb(142, 68, 173)"]
@@ -28137,7 +28137,7 @@
                   }, t.prototype.getAssetUrl = function(t) {
                       var e = this.get("vebto.assetsUrl") || this.getBaseUrl(),
                           n = this.get("vebto.assetsPrefix");
-                      return "production" === this.get("vebto.environment") && n && (e += n + "/"), e += "assets/pixie/", t && (e += t), e
+                      return "production" === this.get("vebto.environment") && n && (e += n + "/"), e += "/assets/pixie/", t && (e += t), e
                   }, t.prototype.save = function(t) {
                       this.setMultiple(t.client);
                       var e = btoa(encodeURIComponent(JSON.stringify(t)));
