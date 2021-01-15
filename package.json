@@ -2,7 +2,7 @@
   "name": "happywait_libraries",
   "version": "0.1.5",
   "description": "external happywait libraries ",
-  "repository": "https://bitbucket.org/HWLaurentCarlini/happywait_libraries",
+  "repository": "https://github.com/happywait/hw-photo-editor",
   "author": "Laurent Carlini <laurent@happywait.com>",
   "license": "MIT"
 }
