@@ -41,7 +41,7 @@ export default {
     'Zoom': 'Zoom',
     'Editor': 'Editeur',
     'filter': 'Filtres',
-    'resize': 'Redimentionner',
+    'resize': 'Redimensionner',
     'crop': 'Rogner',
     'transform': 'Transformer',
     'draw': 'Dessiner',
